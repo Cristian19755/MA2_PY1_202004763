@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Importamos la imagen (asegúrate de que la ruta de la imagen sea correcta)
-image = plt.imread("Proyecto/perrito.jpg") 
+# Importamos la imagen (asegúrarse de que la ruta de la imagen sea correcta)
+image = plt.imread("perrito.jpg") 
 
 # Calculamos la transformada de Fourier 2D de la imagen
 F = np.fft.fft2(image)
